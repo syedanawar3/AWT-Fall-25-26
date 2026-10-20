@@ -4,7 +4,7 @@
 
 | SL | Name | Student ID | Section |
 
-| YOUR_SL | Syeda Faiza Nawar | 23-53850-3 | E |
+| 28 | Syeda Faiza Nawar | 23-53850-3 | E |
  
 ## Database Setup
 
