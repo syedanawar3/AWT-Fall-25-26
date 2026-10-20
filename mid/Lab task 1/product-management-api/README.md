@@ -68,9 +68,9 @@ Server runs at `http://localhost:5000`
 Please setup the pnpm and the node_module , use the boiler plate
 ````bash
 
-This guide will help you set up and run the NestJS backend project locally.
+guidance for set up and run the NestJS backend project locally.
 
-## 🚀 Prerequisites
+##  Prerequisites
 Before starting, ensure the following are installed:
 - Node.js v22 or later
 - PostgreSQL
@@ -80,7 +80,7 @@ Before starting, ensure the following are installed:
 
 ---
 
-## 📦 Install Dependencies
+##  Install Dependencies
 Use any of the following commands:
 
 ```bash
@@ -93,7 +93,7 @@ npm install
 
 ````
 
-# 🔧 Environment Variables
+#  Environment Variables
 
 Go to the project root directory
 Find the file .env.example
@@ -106,7 +106,7 @@ Example:
 cp .env.example .env
 ```
 
-# 🗄️ Database Setup & Migrations
+#  Database Setup & Migrations
 
 Create the database
 
@@ -126,7 +126,7 @@ npm run migration:run
 
 ```
 
-# ⚡ Redis Setup
+#  Redis Setup
 
 Option 1: Run Redis with Docker
 
@@ -143,7 +143,7 @@ REDIS_PASSWORD=
 
 ```
 
-# ▶️ Running the Backend (Development)
+#  Running the Backend (Development)
 
 Start the NestJS app:
 
@@ -156,7 +156,7 @@ npm run start:dev
 
 ```
 
-# 🏗️ Production Build
+#  Production Build
 
 Create a production build:
 
@@ -180,7 +180,7 @@ npm run start:prod
 
 ```
 
-# 📁 Project Structure (Overview)
+#  Project Structure (Overview)
 
 ```bash
 /project-root
