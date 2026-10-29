@@ -11,11 +11,8 @@ export class Student {
   @Column()
   email!: string;
 
-  @Column({ type: "int" })
-  total_course!: number;
-
-  @Column({ type: "float" })
-  cg!: number;
+  @Column()
+  password!: string;
 
   @Column()
   created_at?: Date;
@@ -23,3 +20,4 @@ export class Student {
   @Column()
   updated_at?: Date;
 }
+

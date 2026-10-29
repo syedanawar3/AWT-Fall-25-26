@@ -8,10 +8,7 @@ export class CreateStudentDto {
   email: string = "";
 
   @IsNotEmpty()
-  total_course!: number;
-
-  @IsNotEmpty()
-  cg!: number;
+  password: string = "";
 
   @IsOptional()
   created_at?: Date = new Date();
@@ -19,3 +16,21 @@ export class CreateStudentDto {
   @IsOptional()
   updated_at?: Date = new Date();
 }
+
+export class UpdateStudentDto {
+  @IsOptional()
+  name: string = "";
+
+  @IsOptional()
+  email: string = "";
+
+  @IsOptional()
+  password: string = "";
+
+  @IsOptional()
+  created_at?: Date = new Date();
+
+  @IsOptional()
+  updated_at?: Date = new Date();
+}
+
