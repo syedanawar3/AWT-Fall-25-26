@@ -4,8 +4,8 @@ Please setup the pnpm and the node_module , use the boiler plate
 
 This guide will help you set up and run the NestJS backend project locally.
 
-## 🚀 Prerequisites
-Before starting, ensure the following are installed:
+
+Before starting, ensured the following are installed:
 - Node.js v22 or later
 - PostgreSQL
 - Redis
